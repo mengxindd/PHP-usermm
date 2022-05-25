@@ -1,0 +1,136 @@
+.login
+{
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;/*登录界面边框里面的背景颜色*/
+    margin: 20px auto;
+    padding: 20px;
+}
+.login p a
+{
+    text-decoration: none;
+    color: #22276d;
+
+}
+
+.login_tb
+{
+    width: 98%;
+    height:99%;
+    border: 1px solid #2d2d2d;
+    margin: 0 auto;
+    text-align: center;
+    color: #333333;
+}
+
+.login_tb th
+{
+    height: 25%;
+    line-height: 30px;
+}
+
+.login_tb input[type=text]/*登录界面文本框大小设置*/
+{
+    width: 180px;
+    height: 30px;
+}
+.login_tb input[type=password]/*登录界面密码文本框大小设置*/
+{
+    width: 180px;
+    height: 30px;
+}
+.login_tb input[type=submit], .login_tb input[type=reset]/*登录页面两个按钮的设置*/
+{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #237a47;
+    background-color: #237a47;
+    margin-left: 15px;
+}
+
+.login_tb a
+{
+    text-decoration: none;
+    color: #22276d;
+
+}
+
+/*----------------------------------------------------------------------*/
+.register/*注册页面边框的大小*/
+{
+    width: 600px;
+    background-color: #cccccc;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px #333333;
+
+}
+
+.register_tb/*注册页面中表格的样式设置*/
+{
+    width: 98%;
+    border: 1px solid #2e7a5e;
+    margin: 5px auto;
+    text-align: center;
+    color: #2d2d2d;
+    border-collapse: collapse;
+    padding: 0;
+}
+.register_tb tr/*注册页面表格中每一行高设置*/
+{
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.register_tb .tb_alignl/*用户注册表格中每一行边框的位置设置*/
+{
+    text-align: left;
+    text-indent: 20px;
+    width: 65%;
+    border: 1px solid #2e7a5e;
+}
+
+.register_tb .tb_alignr/*用户注册表格中每一行说明的位置设置，如用户名、密码等文字偏左还是偏右*/
+{
+    text-align: right;
+    padding-right: 15px;
+    width: 35%;
+    border: 1px solid #2e7a5e;
+}
+
+.register_tb input[type=password]/*注册页面中密码边框大小设置*/
+{
+    width: 300px;
+    height: 28px;
+}
+
+.register_tb input[type=text]/*注册页面中文本边框大小设置*/
+{
+    width: 300px;
+    height: 28px;
+}
+.register_tb select/*注册页面中密码提示问题边框大小设置*/
+{
+    width: 300px;
+    height: 28px;
+}
+
+.register_tb caption/*注册页面标题样式设计*/
+{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555555;
+}
+
+.register_tb input[type=submit], .register_tb input[type=reset]/*注册页面两个按钮的设计*/
+{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #237a47;
+    background-color: #237a47;
+    margin-left: 15px;
+}
+
+
